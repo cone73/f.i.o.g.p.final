@@ -1,0 +1,20 @@
+
+:root {
+    --azul: rgb(30, 30, 86);
+    --celeste:  rgb(109, 109, 236);
+    --blanco: rgb(248, 248, 250);
+    --negro:  rgb(10, 10, 10);
+    --espacio: 16px
+    
+}
+body{
+    background-color: var(--azul);
+}
+
+h1 {
+    background-color: var(--blanco);
+}
+
+p {
+    background-color: var(--blanco);
+}
