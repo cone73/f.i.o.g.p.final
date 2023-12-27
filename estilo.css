@@ -11,10 +11,18 @@ body{
     background-color: var(--azul);
 }
 
-h1 {
-    background-color: var(--blanco);
+.contenedor {
+    background-color:chartreuse;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-p {
-    background-color: var(--blanco);
+.cabecera {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.contenido{
+    background-color: brown;
 }
