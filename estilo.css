@@ -4,9 +4,9 @@
     --celeste:  rgb(109, 109, 236);
     --blanco: rgb(248, 248, 250);
     --negro:  rgb(10, 10, 10);
-    --espacio: 16px
-    
+    --espacio: 16px    
 }
+
 body{
     background-color: var(--azul);
 }
@@ -23,6 +23,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .contenido{
     background-color: brown;
 }
