@@ -1,7 +1,7 @@
 
 :root {
     --azul: rgb(30, 30, 86);
-    --celeste:  rgb(109, 109, 236);
+    --celeste:  rgb(143, 143, 186);
     --blanco: rgb(248, 248, 250);
     --negro:  rgb(10, 10, 10);
     --espacio: 16px    
@@ -9,6 +9,7 @@
 
 body{
     background-color: var(--azul);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenedor {
@@ -19,11 +20,71 @@ body{
 }
 
 .cabecera {
-    background-color: aqua;
+    background-color: var(--blanco);
     display: flex;
     justify-content: space-between;
 }
 
 .contenido{
+    background-color: var(--celeste);
+    border-radius: 8px;
+    border-left: 1px solid var(--negro);
+    border-right: 1px solid var(--negro);
+
+
+    padding-bottom: 50px;
+}
+.nav{
+
+}
+.nav-lista{
+background-color: rgb(139, 7, 254);
+list-style-type: none;
+padding-left: 0cap;
+display: flex;
+justify-content: space-evenly;
+padding: 10px 16px;
+margin: 5px 0px 0px; 
+text-align: center;
+}
+
+.nav-lista li{
+
+}
+
+.nav-lista a{
+display: block;
+text-decoration: none;
+padding: 12px 8px;
+border-right: 3px solid var(--negro) ;
+font-weight: bold;
+color: var(--negro);
+}
+.nav-lista a:hover{
+   color: var(--blanco)
+}
+
+.slider{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    
+
+}
+
+.servicios1{
+background-color: blueviolet;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.capacitaciones{
     background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
