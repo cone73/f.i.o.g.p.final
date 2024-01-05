@@ -87,3 +87,20 @@ color: var(--negro);
 .academia{
     background-color: chartreuse;
 }
+.academiainfo{
+    display: flex;
+    gap: 20px;
+}
+.restaurantesinfo{
+    display: flex;
+    gap: 20px;
+}
+.escuelasinfo{
+    display: flex;
+    gap: 20px;
+}
+.chefinfo{
+    display: flex;
+    gap: 20px;
+}
+   
