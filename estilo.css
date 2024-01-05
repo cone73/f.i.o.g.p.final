@@ -72,8 +72,8 @@ color: var(--negro);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
+    padding: 20px;
 }
-
 
 .chef{
     background-color: blueviolet;
@@ -103,4 +103,17 @@ color: var(--negro);
     display: flex;
     gap: 20px;
 }
-   
+
+.footer{
+    background-color: var(--blanco);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.direccion{
+}
+.copy{
+}
+.redes{
+}
+.face{
+}
