@@ -126,22 +126,23 @@ color: var(--negro);
 @media (max-width: 600px) {
     .footer{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .nav-lista{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .cabecera{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .main{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
+}
+.contenido2{
+    background-color: var(--celeste);
+    border-radius: 8px;
+    border-left: 3px solid var(--negro);
+    border-right: 3px solid var(--negro);
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
