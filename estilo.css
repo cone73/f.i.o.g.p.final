@@ -29,6 +29,8 @@ body{
     border-left: 3px solid var(--negro);
     border-right: 3px solid var(--negro);
     padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Navegacion */
 .nav{
@@ -48,6 +50,8 @@ padding: 10px 16px;
 margin: px 0px 0px; 
 text-align: center;
 margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .nav-lista li{
@@ -85,9 +89,11 @@ color: var(--negro);
 }
 .escuelas{
     background-color: rgb(232, 232, 238);
+    
 }
 .restaurantes{
     background-color: rgb(232, 232, 238)
+    
 }
 .academia{
     background-color: rgb(232, 232, 238)
@@ -114,5 +120,28 @@ color: var(--negro);
     padding-right: 20px;
     padding-left: 20px;
     display: flex;
-    gap: 800px;
+    gap: 200px;
+}
+
+@media (max-width: 600px) {
+    .footer{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-lista{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cabecera{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
