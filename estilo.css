@@ -6,14 +6,12 @@
     --negro:  rgb(10, 10, 10);
     --espacio: 16px    
 }
-
 body{
     background-color: var(--azul);
     font-family: 'Roboto Condensed', sans-serif;
 }
-
 .contenedor {
-    background-color: var(--negro);
+    background-color: var(--celeste);
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -137,12 +135,17 @@ color: var(--negro);
         display: block;
     }
 }
-.contenido2{
-    background-color: var(--celeste);
-    border-radius: 8px;
-    border-left: 3px solid var(--negro);
-    border-right: 3px solid var(--negro);
-    padding-bottom: 200px;
+
+.contenido2 {
+    background-color: rgb(139, 7, 254);
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 16px;
+    margin: px 0px 0px; 
+    text-align: center;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 }
