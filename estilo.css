@@ -52,10 +52,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.nav-lista li{
-
-}
-
 .nav-lista a{
 display: block;
 text-decoration: none;
@@ -133,7 +129,7 @@ color: var(--negro);
     }
     .main{
         display: block;
-    }
+    }   
 }
 
 .contenido2 {
@@ -148,4 +144,18 @@ color: var(--negro);
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+.mandatario{
+    background-color: var(--celeste);
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 16px;
+    margin: px 0px 0px; 
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
 }
