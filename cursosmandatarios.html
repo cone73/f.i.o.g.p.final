@@ -1,47 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="shortcut icon" href="Imagenes/favicon.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="google-fonts.css">
     <title>Foro Iberoamericano Gastronomico</title>
 </head>
 <body>
     <div class="contenedor">
-        <div class="cabecera">
+            <div class="cabecera">
             <a href="index.html">
             <img src="Imagenes/favicon.jpg" alt="ir a la home">
             </a>
             <h1>Foro Iberoamericano <br>
             de Organizaciones Gastronomicas <br>
             Profesionales</h1>
-        </div>
-
-        <div class="mandatario">
+            </div>  
+    </div> 
+    
+    
+    <div class="mandatario">
             <div class="sanidad">
                 <h2>Sanidad Aplicada</h2>
-                    <div class="sanidadinfo">
-                        <img src="Imagenes/plato 1 600.jpg" alt="">
-                        <p>Dirigido a todo profesional de la industria alimentaria</p>
-                        <p>Valor del curso $150</p>
-                    </div>
+                <picture>
+                    <source srcset="Imagenes/plato1300.jpg" media="(max-width: 900px)">
+                    <img src="Imagenes/plato 1 600.jpg" alt="">
+                </picture>
+                    <p>Dirigido a todo profesional de la industria alimentaria</p>
+                    <p>Valor del curso $150</p>
             </div>
+        
             <div class="nutricion">
                 <h2>Nutricion y Dietetica</h2>
-                    <div class="nutricioninfo">
-                        <img src="Imagenes/plato 2 600.png" alt="">
-                        <p>Dirigido a todo profesional de la industria alimentaria</p>
-                        <p>Valor del Curso $150</p>
-                    </div>
+                    <picture>
+                    <source srcset="Imagenes/plato2300.png" media="(max-width: 900px)">
+                    <img src="Imagenes/plato 2 600.png" alt="">
+                    </picture>
+                    <p>Dirigido a todo profesional de la industria alimentaria</p>
+                    <p>Valor del Curso $150</p>
+            </div>
+    </div>
+
+            
         <link rel="stylesheet" href="/api noticias/noti.html">
 
-        <div class="noticias">
-            <nav class="api">
-                <ul>
-                    <li>
-                        <a href="/api noticias/noti.html">Todas las noticias</a>
-                    </li>
-                </ul>
-    </div>    
+
+    <div class="noticias">
+        <nav class="api">
+            <ul>
+                <li>
+                <a href="/api noticias/noti.html">Todas las noticias</a>
+                </li>
+            </ul>
+    
+        </nav>
+    </div>
+
+    
 </body>
 </html>
