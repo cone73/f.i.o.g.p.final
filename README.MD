@@ -13,7 +13,7 @@ Es un proyecto que tiene la finaludad de identificar a todos los profesionales, 
 ### Technologies
 ***
 Lista de tecnologia usada en el proyecto:
-* [Technologie name](http://127.0.0.1:5500/index.html)
+* [visual studio code](http://127.0.0.1:5500/index.html)
 ***
 
 ### Installation
