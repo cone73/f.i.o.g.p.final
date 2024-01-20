@@ -21,6 +21,8 @@ Lista de tecnologia usada en el proyecto:
 A little intro about the installation. 
 ```
 https://github.com/cone73/f.i.o.g.p.final
+```
+```
 https://magical-bublanina-4e6d8a.netlify.app/
 ```
 ***
